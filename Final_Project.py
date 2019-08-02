@@ -15,7 +15,7 @@ def get_filters():
     month = ''
     day = ''
     cities = ('Chicago', 'New York City', 'Washington')
-    invalid = 'Sorry, not a valid input'
+    invalid = 'Sorry, not a valid input. Please Try again.'
     while city not in cities:
         city = (input('Please enter the city you\'d like to view. Availible cities are Chicago, New York City, and Washington :')).title()
         if city not in cities:
