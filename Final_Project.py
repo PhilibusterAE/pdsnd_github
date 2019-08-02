@@ -75,6 +75,7 @@ def station_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
+#There must be a library with a funtion that could simplify the time conversion here, need to find it
 def trip_duration_stats(df):
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
@@ -105,6 +106,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
+# There's a simpler way to update the indexing here, need to look into it
 def display_data(df):
     data_request = input('Would you like to see a sample of the raw data?:')
     start_index = 0

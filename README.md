@@ -1,15 +1,16 @@
-### Date created
-Include the date you created this project and README file.
+Date Created:
+8-1-19
 
-### Project Title
-Replace the Project Title
+Title:
+Udacity Git Project
 
-### Description
-Describe what your project is about and what it does
+Description:
+A simple python tool for displaying low-level analysis of bikeshare data
 
-### Files used
-Include the files used
+Files:
+Final_Project.py
+README.md
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Credits:
+Udacity
+Philip D.
